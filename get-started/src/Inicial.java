@@ -5,8 +5,6 @@ public class Inicial {
         Banco conta = new Banco(500);
         conta.setSaldoInicial(500);
 
-        // O deposito está cobrando juros infinito após ser usado o cheque especial
-
         while (true){
             exibirMenu();
 
